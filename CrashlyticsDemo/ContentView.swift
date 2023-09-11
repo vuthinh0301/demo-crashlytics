@@ -16,10 +16,10 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
 //            Text("Hello, world!")
             Button("Crash") {
-                let configuration = PHGPostHogConfiguration(apiKey: "phc_SrLwox99ICEoxU5WR3QEkaojb5bMR6h0C7PSntA5XDC", host: "https://app.posthog.com")
+//                let configuration = PHGPostHogConfiguration(apiKey: "phc_SrLwox99ICEoxU5WR3QEkaojb5bMR6h0C7PSntA5XDC", host: "https://app.posthog.com")
 
-                configuration.captureApplicationLifecycleEvents = true; // Record certain application events automatically!
-                configuration.recordScreenViews = true; // Record screen views automatically!
+//                configuration.captureApplicationLifecycleEvents = true; // Record certain application events automatically!
+//                configuration.recordScreenViews = true; // Record screen views automatically!
 
 //                PHGPostHog.setup(with: configuration)
 //                let posthog = PHGPostHog.shared()

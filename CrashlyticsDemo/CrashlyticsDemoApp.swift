@@ -23,11 +23,11 @@ struct CrashlyticsDemoApp: App {
 //        if let posthog = PHGPostHog.shared() {
 //            posthog.capture("Test Event")
 //        }
-        FirebaseApp.configure()
+//        FirebaseApp.configure()
        
         let config: CountlyConfig = CountlyConfig()
-            config.appKey = "0ef05d19f02f4555385f4b83fc6d5e77cd56d9b9"
-            config.host = "http://192.168.1.250"
+            config.appKey = "a693a3ae5ffdddf627fcbb2589658ccd8c1f6dcc"
+            config.host = "http://10.240.177.90:8443"
         config.features = [CLYFeature.pushNotifications, CLYFeature.crashReporting, CLYFeature.autoViewTracking, CLYFeature.autoViewTracking]
             Countly.sharedInstance().start(with: config)
     }
